@@ -222,12 +222,31 @@
     // Core Province Centroids (Pass 1 Coarse Filter) 
     // Add remaining provinces to ensure nationwide coverage
     const PROVINCES = {
+      // NCR Variations
+      "NCR": { lat: 14.5995, lng: 120.9842 },
+      "NATIONAL CAPITAL REGION": { lat: 14.5995, lng: 120.9842 },
       "METRO MANILA": { lat: 14.5995, lng: 120.9842 },
-      "CEBU": { lat: 10.3157, lng: 123.8854 },
-      "DAVAO DEL SUR": { lat: 7.1907, lng: 125.4553 },
+      "QUEZON CITY": { lat: 14.6760, lng: 121.0437 }, 
+      "MANILA": { lat: 14.5995, lng: 120.9842 },
+      
+      // Region 3
+      "BULACAN": { lat: 14.7937, lng: 121.0422 },
+      "PAMPANGA": { lat: 15.0646, lng: 120.6240 },
+      "TARLAC": { lat: 15.4802, lng: 120.5979 },
+      "NUEVA ECIJA": { lat: 15.4865, lng: 120.9734 },
+      "BATAAN": { lat: 14.6815, lng: 120.4355 },
+      "ZAMBALES": { lat: 15.3333, lng: 120.1667 },
+
+      // Region 4A
+      "RIZAL": { lat: 14.5842, lng: 121.1763 },
       "CAVITE": { lat: 14.2456, lng: 120.9367 },
       "LAGUNA": { lat: 14.1685, lng: 121.2435 },
-      "PAMPANGA": { lat: 15.0646, lng: 120.6240 }
+      "BATANGAS": { lat: 13.7565, lng: 121.0583 },
+      "QUEZON": { lat: 13.9314, lng: 121.9473 },
+
+      // Sample VisMin
+      "CEBU": { lat: 10.3157, lng: 123.8854 },
+      "DAVAO DEL SUR": { lat: 7.1907, lng: 125.4553 }
     };
 
     const API_KEY = "AIzaSyDlBVOu_jLmSNiDlgkBAxj_oagnqiWT-J8";
